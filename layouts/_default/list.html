@@ -23,7 +23,10 @@
             <div class="postListItem" role="listitem">
                 <div class="postHeader">
                     <span class="postTitle">{{ .Title }}</span>
-                    <span class="postDate">{{ .Date.Format "January 2, 2006" }}</span>
+                    <div class="postInfo">
+                        <span class="postLength">{{ math.Round (div (countwords .Content) 240.0) }} minute read</span>
+                        <span class="postDate">{{ .Date.Format "January 2, 2006" }}</span>
+                    </div>
                 </div>
                 <div class="postExcerpt">
                     <p>

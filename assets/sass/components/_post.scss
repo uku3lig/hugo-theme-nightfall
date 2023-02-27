@@ -1,8 +1,17 @@
 @import "../utils/variables";
 
-.postDate {
+.postInfo {
+  display: flex;
   float: right;
+  column-gap: 8px;
+}
+
+.postDate {
   color: $white;
+}
+
+.postLength {
+  color: $grey;
 }
 
 .postTitle {
