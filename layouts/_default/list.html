@@ -26,7 +26,13 @@
                     <span class="postDate">{{ .Date.Format "January 2, 2006" }}</span>
                 </div>
                 <div class="postExcerpt">
-                    <p>{{ .Summary }}</p>
+                    <p>
+                        {{ if .Description }}
+                            {{ .Description }}
+                        {{ else }}
+                            {{ .Summary }}
+                        {{ end }}
+                    </p>
                 </div>
             </div>
         </a>
