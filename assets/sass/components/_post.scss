@@ -52,6 +52,24 @@
   text-decoration: none;
 }
 
+.codeBlock {
+  font-family: $fontCode;
+  display: block;
+  overflow: auto;
+}
+
+.codeLanguage {
+  color: $grey;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.highlight pre {
+  padding: 10px;
+  border-radius: 10px;
+}
+
 a,
 a:link,
 a:visited,

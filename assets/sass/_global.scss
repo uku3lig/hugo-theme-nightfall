@@ -17,16 +17,12 @@ a {
 
 pre code {
   font-family: $fontCode;
-  font-size: 75%;
   display: block;
-  background: $backgroundDarker;
-  padding: 10px;
   overflow: auto;
 }
 
 code {
   font-family: $fontCode;
-  font-size: 75%;
 }
 
 @for $i from 1 through 6 {
