@@ -18,7 +18,7 @@ a {
 pre code {
   font-family: $fontCode;
   display: block;
-  overflow: auto;
+  white-space: initial;
 }
 
 code {
