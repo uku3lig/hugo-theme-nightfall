@@ -56,6 +56,10 @@
   font-family: $fontCode;
   display: block;
   overflow: auto;
+  background: $backgroundCode;
+  padding: 2px 2px 0 10px;
+  border-radius: 10px;
+  border: 1px solid $darkGrey;
 }
 
 .codeLanguage {
@@ -63,12 +67,6 @@
   font-size: 0.8em;
   margin-bottom: 10px;
   float: right;
-}
-
-.highlight pre {
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid $darkGrey;
 }
 
 a,
